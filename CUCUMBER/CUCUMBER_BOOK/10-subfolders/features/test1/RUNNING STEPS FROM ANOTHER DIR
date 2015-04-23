@@ -1,0 +1,4 @@
+TO RUN .rb STEP FILE WHICH IS IN ANOTHER DIRECTORY USE THIS SYNTAX:
+cucumber [path to .features file] -r [path to directory with steps]
+
+cucumber ~/Desktop/CUCUMBER/10-subfolders/features/test1/testing-1.feature -r ~/Desktop/CUCUMBER/10-subfolders/features

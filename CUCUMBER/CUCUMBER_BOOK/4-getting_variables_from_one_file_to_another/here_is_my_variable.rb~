@@ -1,0 +1,1 @@
+$var = "I am variable from: 'here_is_my_variable.rb' file, but I'm printed from 'steps.rb'."

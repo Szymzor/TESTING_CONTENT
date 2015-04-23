@@ -1,0 +1,3 @@
+cd to directory where you have your "features" dir
+Type:
+cucumber features/lines.feature:3:21

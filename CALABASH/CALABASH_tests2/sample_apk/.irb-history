@@ -1,0 +1,50 @@
+query("CheckBox id:7")
+query(index: 1")
+query("index: 1")
+query("CheckBox")
+start_test_server_in_background
+query(button)
+query("button")
+query("button '1'")
+query("button")
+query("*")
+start_test_server_in_background
+$stdout = File.open("console.log","w")
+query '*'
+$stdout.flush
+$stdout = STDOUT
+start_test_server_in_background
+query '*'
+query("button")
+query("button")
+query("button description:'android.widget.Button@41c5ee50'")
+touch("button description:'android.widget.Button@41c5ee50'")
+clear
+start_test_server_in_background
+query("button 1")
+query("button")
+query("description: 'android.widget.Button@41c38b88'")
+query("android.widget.Button")
+query("android.widget.Button index:7")
+touch("android.widget.Button index:7")
+touch("android.widget.Button index:0")
+touch("android.widget.Button index:0")
+query("android.widget.Button")
+touch("android.widget.Button index:7")
+touch("android.widget.Button index:7")
+touch("android.widget.Button index:0")
+touch("android.widget.Button index:0")
+touch("android.widget.Button index:1")
+touch("android.widget.Button index:2")
+touch("android.widget.Button index:2")
+touch("android.widget.Button index:3")
+touch("android.widget.Button index:4")
+touch("android.widget.Button index:5")
+touch("android.widget.Button index:6")
+touch("android.widget.Button index:7")
+touch("android.widget.Button index:8")
+touch("android.widget.Button index:17")
+touch("android.widget.CheckBox")
+touch("android.widget.CheckBox")
+touch("android.widget.CheckBox text:'chkbox3'")
+query("android.widget.CheckBox")

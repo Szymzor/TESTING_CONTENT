@@ -1,0 +1,16 @@
+Given(/^I can see this test is "(.*?)"$/) do |is_running|
+ 	if (is_running == "runningr")
+	  puts "ok"
+	else
+	  abort
+	end
+end
+
+When(/^file "(.*?)" exists$/) do |arg1|
+  pending # express the regexp above with the code you wish you had
+end
+
+Then(/^I should see \$var value from this file$/) do
+  pending # express the regexp above with the code you wish you had
+end
+

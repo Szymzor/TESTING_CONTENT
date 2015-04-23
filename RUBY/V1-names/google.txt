@@ -1,0 +1,279 @@
+Adam Ajdamiak 2015 10 SEM PL-LDZ SAM05 Other
+Adam Blank 2015 10 MDM PL-WAW SRT05 Other
+Robert Heywood 2015 10 TVB UK-WLM GOO02 Other
+Adam Chrapkowski 2015 10 FAB PL-BDG Holidays - Unpaid (PL) 
+Adam Czupryna 2015 10 TVB PL-BDG BOS02 Other
+Adam Dybkowski 2015 10 MDM PL-WAW NWG02 Other
+Adam Dybkowski 2015 10 MDM PL-WAW NWG02 Other
+Adam Gawel 2015 10 FAB PL-BDG ESG04 Other
+Adam Iwanowski 2015 10 QAD PL-SCN Sickness (PL) ~~SICK SELF CERT
+Adam Iwanowski 2015 10 QAD PL-SCN NOK01C Other
+Adam Kepinski 2015 10 AUT PL-LDZ TOM24 Other
+Adam Mencwal 2015 10 AUT PL-LDZ TOM39 Other
+Adam Mencwal 2015 10 AUT PL-LDZ TOM39 Other
+Adam Smigielski 2015 10 MDM PL-LDZ Sickness (PL) ~~SICK
+Adrian Dymek 2015 10 FAB PL-BDG ESG03 Other
+Adrian Glasnapp 2015 10 AUT PL-LDZ TOM15 Other
+Adrian Janowski 2015 10 QAD PL-SCN NOK01A Other
+Adrian Szalski 2015 10 QAD PL-BDG DEL10 Other
+Agata Kwiatkowska 2015 10 (G) PL-LBN ~Internal Administration 
+Agnieszka Flis 2015 10 QAD PL-LBN NOK01B Other
+Agnieszka Forys 2015 10 QAD PL-LDZ VOD77 Other
+Agnieszka Forys 2015 10 QAD PL-LDZ VOD55 Other
+Agnieszka Forys 2015 10 QAD PL-LDZ VOD55 Other
+Agnieszka Forys 2015 10 QAD PL-LDZ IDLE Other
+Agnieszka Forys 2015 10 QAD PL-LDZ training 
+Agnieszka Holka 2015 10 TVB PL-BDG VIT04 Other
+Agnieszka Holka 2015 10 TVB PL-BDG IDLE Other
+Agnieszka Majda 2015 10 (G) PL-LDZ ~Internal Administration 
+Agnieszka Majda 2015 10 (G) PL-LDZ ~Internal Administration 
+Agnieszka Panek 2015 10 AUT PL-SCN NOK01A Other
+Agnieszka Panek 2015 10 AUT PL-SCN Engineering Management Other
+Agnieszka Przekopowska 2015 10 MBL PL-LDZ Engineering Management Other
+Agnieszka Zygula 2015 10 QAD PL-SCN INT26A Other
+Agnieszka Zygula 2015 10 QAD PL-SCN Idle 
+Alicja Zaleska 2015 10 (G) PL-WAW ~Internal Administration 
+Andriy Kobza 2015 10 MBL PL-WAW TMO06 Design
+Andrzej Jozwiak 2015 10 AUT PL-LDZ TOM15 Other
+Andrzej Kaczor 2015 10 AUT PL-SCN NOK09 Other
+Andrzej Kaczor 2015 10 AUT PL-SCN NOK09 Other
+Andrzej Rogowski 2015 10 MBL PL-WAW TMO06  Project Task #00
+Andrzej Rogowski 2015 10 MBL PL-WAW TMO06  Project Task #07
+Andrzej Wcislak 2015 10 QAD PL-WAW IDLE Other
+Aneta Mrozek 2015 10 FAB PL-BDG Sickness (PL) ~~SICK
+Anna Czaja 2015 10 AUT PL-SCN NOK01A Other
+Anna Czaja 2015 10 AUT PL-SCN NOK01A Other
+Anna Duda 2015 10 (G) PL-SCN ~Internal Administration 
+Anna Gackowska 2015 10 (G) PL-BDG ~Internal Administration 
+Anna Gackowska 2015 10 (G) PL-BDG ~Internal Administration 
+Anna Gasiorek 2015 10 QAD PL-WAW Sickness (PL) ~~SICK SELF CERT
+Anna Gasiorek 2015 10 QAD PL-WAW PTL02 Other
+Anna Gierszewska 2015 10 (G) PL-WAW ~Internal Administration 
+Anna Krzyzanowska 2015 10 FAB PL-BDG ESG03 Other
+Anna Matczak 2015 10 SEM PL-LDZ INT30 Other
+Anna Matczak 2015 10 SEM PL-LDZ NXP02z Other
+Anna Matczak 2015 10 SEM PL-LDZ INT29B Other
+Anna Matczak 2015 10 SEM PL-LDZ INT29B Other
+Anna Matczak 2015 10 SEM PL-LDZ INT30 Other
+Anna Matczak 2015 10 SEM PL-LDZ NXP02z Other
+Anna Matczak 2015 10 SEM PL-LDZ IDLE Other
+Anna Matczak 2015 10 SEM PL-LDZ INT30 Other
+Anna Matczak 2015 10 SEM PL-LDZ Engineering Management Other
+Anna Matczak 2015 10 SEM PL-LDZ Engineering Management Other
+Anna Skalska-Skrobek 2015 10 MDM PL-LDZ FLR01  Project Task #04
+Anna Skalska-Skrobek 2015 10 MDM PL-LDZ Holidays - Paid (PL) 
+Anna Skalska-Skrobek 2015 10 MDM PL-LDZ Idle 
+Anna Skalska-Skrobek 2015 10 MDM PL-LDZ training 
+Anna Sokolowska 2015 10 (G) PL-WAW ~Internal Administration 
+Anna Sperka 2015 10 MDM PL-LDZ INT29B Other
+Anna Sperka 2015 10 MDM PL-LDZ training 
+Phil Wright 2015 10 TVB UK-WLM SAM04 Other
+Anna Sulek 2015 10 TVB PL-BDG Idle 
+Anna Zablocka 2015 10 (G) PL-SCN ~Internal Administration 
+Anna Zablocka 2015 10 (G) PL-SCN ~Internal Administration 
+Anna Zadrozna 2015 10 (G) PL-WAW ~Internal Administration 
+Anna Zieminska 2015 10 MBL PL-BDG ESG04 Other
+Alberto Lopez 2015 10 SEM UK-WLM GOO02 Other
+Antonina Tkachuk 2015 10 FAB PL-WAW TOM15 Other
+Antonina Tkachuk 2015 10 FAB PL-WAW Holidays - Paid (PL) 
+Arkadiusz Antoniak 2015 10 MDM PL-WAW INT26 Other
+Arkadiusz Gagalski 2015 10 QAD PL-SCN NOK05 Other
+Arkadiusz Gagalski 2015 10 QAD PL-SCN NOK05 Other
+Arkadiusz Gruszczynski 2015 10 SEM PL-LDZ ARM06z other
+Arkadiusz Gruszczynski 2015 10 SEM PL-LDZ ARM06 Other
+Arkadiusz Gruszczynski 2015 10 SEM PL-LDZ KHR01 Other
+Arkadiusz Gruszczynski 2015 10 SEM PL-LDZ ARM06z Other
+Arkadiusz Gruszczynski 2015 10 SEM PL-LDZ Engineering Management Other
+Arkadiusz Gruszczynski 2015 10 SEM PL-LDZ Engineering Management Other
+Arkadiusz Sarwa 2015 10 SEM PL-LDZ VIS02 Other
+Arkadiusz Szechlicki 2015 10 FAB PL-BDG PTL02 Other
+Arkadiusz Tulodziecki 2015 10 MBL PL-WAW VFX04 Implementation
+Arkadiusz Wojcieszek 2015 10 FAB PL-LBN ESG03 Other
+Jonathan Molyneux 2015 10 (G) UK-WLM Sickness ~~SICK
+Artur Chamier 2015 10 QAD PL-SCN PTL02 Other
+Artur Legocki 2015 10 FAB PL-LBN PTL02 Other
+Artur Rosczak 2015 10 ISS PL-LDZ TOM31 Other
+Artur Twardowski 2015 10 AUT PL-LDZ DEL11 Other
+Artur Twardowski 2015 10 AUT PL-LDZ Idle 
+Artur Twardy 2015 10 MDM PL-WAW NWG02 Other
+Artur Twardy 2015 10 MDM PL-WAW NWG02 Other
+Artur Twardy 2015 10 MDM PL-WAW NWG02 Other
+Artur Twardy 2015 10 MDM PL-WAW NWG02 Other
+Artur Twardy 2015 10 MDM PL-WAW NWG02 Other
+Artur Twardy 2015 10 MDM PL-WAW IDLE Other
+Spencer Martin 2015 10 (G) UK-WLM Sickness ~~SICK SELF CERT
+Bartlomiej Gorny 2015 10 MBL PL-BDG Sickness (PL) ~~SICK SELF CERT
+Bartlomiej Gorny 2015 10 MBL PL-BDG PTL02 Other
+Bartlomiej Gorny 2015 10 MBL PL-BDG Holidays - Paid (PL) 
+Bartlomiej Majka 2015 10 AUT PL-LDZ INT17 Other
+Bartlomiej Moroz 2015 10 QAD PL-BDG CLE02 Other
+Bartlomiej Piech 2015 10 MBL PL-LBN IDLE Other
+Bartosz Banczerowski 2015 10 FAB PL-LBN MOB80 Other
+Bartosz Boniecki 2015 10 MBL PL-BDG TMO06  Project Task #00
+Bartosz Boniecki 2015 10 MBL PL-BDG TMO06  Project Task #05
+Bartosz Brzezinski 2015 10 QAD PL-BDG ESG03 Other
+Bartosz Cebryk 2015 10 QAD PL-LBN PTL02 Other
+Bartosz Jarzebski 2015 10 QAD PL-LDZ Engineering Management Other
+Bartosz Jarzebski 2015 10 QAD PL-LDZ Engineering Management Other
+Bartosz Kosiorek 2015 10 SEM PL-LDZ TOM22 Other
+Bartosz Michalkiewicz 2015 10 AUT PL-SCN NOK12 Other
+Bartosz Michalkiewicz 2015 10 AUT PL-SCN NOK12 Other
+Bartosz Mikulski 2015 10 MDM PL-WAW Holidays - Paid (PL) 
+Bartosz Piwkowski 2015 10 TVB PL-BDG NOK14 Other
+Dave Hurford 2015 10 (G) UK-WLM Sickness ~~SICK SELF CERT
+Bartosz Skobudzinski 2015 10 MDM PL-WAW SRT05 Other
+Bartosz Skobudzinski 2015 10 MDM PL-WAW SRT05 Other
+Bartosz Skobudzinski 2015 10 MDM PL-WAW JLR02 Other
+Bartosz Skobudzinski 2015 10 MDM PL-WAW Engineering Management Other
+Bartosz Swiezawski 2015 10 QAD PL-BDG VFX04 Testing
+Bartosz Szuda 2015 10 QAD PL-LDZ CIS01 Other
+Bartosz Taczala 2015 10 AUT PL-SCN NOK09 Other
+Bartosz Taczala 2015 10 AUT PL-SCN JLR02 Other
+Bartosz Taczala 2015 10 AUT PL-SCN Idle 
+Bartosz Wezgraj 2015 10 QAD PL-SCN PTL02 Other
+Bartosz Witkowski 2015 10 QAD PL-BDG CYA02 Other
+Bartosz Witkowski 2015 10 QAD PL-BDG CYA02 Other
+Bartosz Zielinski 2015 10 TVB PL-BDG NOK01B Other
+Bartosz Ziembicki 2015 10 AUT PL-SCN Holidays - Paid (PL) 
+Naveed Asmat 2015 10 ISS UK-WLM NXP02 Other
+Beata Kaniewska 2015 10 (G) PL-WAW ~Internal Administration 
+Beata Kaniewska 2015 10 (G) PL-WAW Holidays - Paid (PL) 
+Beata Karcz 2015 10 (G) PL-WAW ~Internal Administration 
+Beata Napieraj 2015 10 FAB PL-BDG DEL16 Other
+Beata Napieraj 2015 10 FAB PL-BDG Engineering Management Other
+Beata Wachulec 2015 10 (G) PL-LDZ ~Internal Administration 
+Beata Wachulec 2015 10 (G) PL-LDZ ~Internal Administration 
+Beata Wachulec 2015 10 (G) PL-LDZ ~Internal Administration 
+Bogdan Popa 2015 10 QAD PL-LDZ MOB88 Other
+Boris Zanin 2015 10 SEM PL-LDZ MOB66 Other
+Chi Ding 2015 10 FAB PL-WAW INT08 Other
+Damian Blazejewski 2015 10 MBL PL-LBN DEU02 Other
+Damian Piatkowski 2015 10 TVB PL-BDG NOK01B Other
+Mark Ball 2015 10 SEM UK-WLM TOS01 Other
+Daniel Dawczynski 2015 10 MDM PL-WAW PTL02 Other
+Daniel Jankowski 2015 10 MBL PL-BDG TMO06  Project Task #04
+Daniel Jankowski 2015 10 MBL PL-BDG TMO06  Project Task #05
+Daniel Karazniewicz 2015 10 MBL PL-WAW Sickness (PL) ~~SICK SELF CERT
+Daniel Karazniewicz 2015 10 MBL PL-WAW VFX04 Implementation
+Paul Albertella 2015 10 SEM UK-WLM JLR01 Other
+Daniel Zielas 2015 10 FAB PL-BDG IDLE other
+Andrew Holt 2015 10 SEM UK-WLM IDLE Other
+Daniel Zielas 2015 10 FAB PL-BDG DEL06 Other
+Danuta Kruppa 2015 10 (G) PL-SCN ~Internal Administration 
+Dariusz Dolecki 2015 10 QAD PL-SCN NOK01C Other
+Dariusz Dolecki 2015 10 QAD PL-SCN NOK01C Other
+Dariusz Drozd 2015 10 QAD PL-SCN Sickness (PL) ~~SICK SELF CERT
+Neil Binns 2015 10 TVB UK-WLM MIR01 Other
+Scott Kennedy 2015 10 ISS UK-WLM INT08 Other
+Lorna McNeill 2015 10 ISS UK-WLM INT08 Other
+Dariusz Drozd 2015 10 QAD PL-SCN NOK05 Other
+Dariusz Drozdziuk 2015 10 MDM PL-WAW DEU03 Other
+Dariusz Jagus 2015 10 FAB PL-WAW JLR03 Other
+Dariusz Kociecki 2015 10 (G) PL-WAW Internal sales 
+Dariusz Matejewski 2015 10 FAB PL-WAW training 
+David Biagini 2015 10 FAB PL-WAW INT08 Other
+David Biagini 2015 10 FAB PL-WAW Engineering Management Other
+Simon Bailey 2015 10 SEM UK-WLM DAO02 Other
+David Biagini 2015 10 FAB PL-WAW Holidays - Paid (PL) 
+Dawid Kardas 2015 10 SEM PL-LDZ Sickness (PL) ~~SICK SELF CERT
+Dawid Kardas 2015 10 SEM PL-LDZ NOK01B Other
+Dawid Krolak 2015 10 AUT PL-LDZ FLR01  Project Task #05
+Dawid Woda 2015 10 QAD PL-BDG ESG03 Other
+Kaijun Tang 2015 10 TVB UK-WLM CTL01 Other
+Sanghoon Lee 2015 10 SEM UK-WLM SAM05 Other
+Dominik Jaguszewski 2015 10 QAD PL-SCN NOK01C Other
+Dominik Lang 2015 10 AUT PL-LDZ Sickness (PL) ~~SICK SELF CERT
+Dominik Lang 2015 10 AUT PL-LDZ BOS02 Other
+Dominik Zychlinski 2015 10 MDM PL-LDZ NOK01A Other
+Dorota Kosmider 2015 10 (G) PL-WAW ~Internal Administration 
+Dorota Zdrojewska 2015 10 AUT PL-SCN Sickness (PL) ~~SICK
+Dorota Zdrojewska 2015 10 AUT PL-SCN NOK03 Other
+Edyta Kawka 2015 10 (G) PL-WAW ~Internal Administration 
+Edyta Kawka 2015 10 (G) PL-WAW ~Internal Administration 
+Edyta Michalska-Paszko 2015 10 FAB PL-BDG Sickness (PL) ~~SICK
+Emilia Heller 2015 10 MBL PL-BDG ESG04 Other
+Ewa Bernadowicz 2015 10 (G) PL-BDG ~Internal Administration 
+Ewa Gawinska 2015 10 QAD PL-BDG CYA02 Other
+Ewa Jacewicz 2015 10 (G) PL-WAW ~Internal Administration 
+Ewa Jacewicz 2015 10 (G) PL-WAW Holidays - Paid (PL) 
+Ewa Wisniewska 2015 10 SEM PL-LDZ NOK14 Other
+Ewelina Gradzka 2015 10 (G) PL-LDZ ~Internal Administration 
+ext Bartlomiej Maciejewski 2015 10 FAB PL-WAW IDLE Other
+ext Jacek Pawelczyk 2015 10 MDM PL-WAW FLR01  Project Task #02
+ext Jacek Pawelczyk 2015 10 MDM PL-WAW FLR01 ~Business Travel
+Filip Demczewski 2015 10 MBL PL-BDG TMO06  Project Task #00
+Filip Demczewski 2015 10 MBL PL-BDG Sickness (PL) ~~SICK SELF CERT
+Filip Zan 2015 10 FAB PL-BDG IDLE Other
+Georgios Furkiotis 2015 10 ISS PL-SCN NXP02 Other
+Grzegorz Bielski 2015 10 MDM PL-WAW DEL12 Other
+Grzegorz Dyrda 2015 10 FAB PL-BDG IDLE Other
+Alexandre Bourdeu 2015 10 ISS UK-WLM JLR01 Other
+Grzegorz Golek 2015 10 QAD PL-WAW RAY04 Other
+Grzegorz Golek 2015 10 QAD PL-WAW IDLE Other
+Grzegorz Golek 2015 10 QAD PL-WAW Holidays - Paid (PL) 
+Grzegorz Prajsner 2015 10 ISS PL-SCN ARM06 Other
+Grzegorz Rudniak 2015 10 QAD PL-LDZ Sickness (PL) ~~SICK SELF CERT
+Grzegorz Rudniak 2015 10 QAD PL-LDZ TMO07 Other
+Grzegorz Rudniak 2015 10 QAD PL-LDZ TMO07 Other
+Grzegorz Swierczynski 2015 10 AUT PL-LDZ TMO06  Project Task #08
+Grzegorz Swierczynski 2015 10 AUT PL-LDZ Holidays - Unpaid (PL) 
+Guillermo Rodriguez Delgado 2015 10 AUT PL-LDZ TOM41 Other
+Hanna Golawska 2015 10 QAD PL-LBN Sickness (PL) 
+Hubert Jadczak 2015 10 QAD PL-WAW JLR02 Other
+Hubert Liberacki 2015 10 AUT PL-SCN SAM05 Other
+Hubert Liberacki 2015 10 AUT PL-SCN SAM05 Other
+Igor Andruszkiewicz 2015 10 MDM PL-WAW OCE06 Other
+Igor Andruszkiewicz 2015 10 MDM PL-WAW Engineering Management Other
+Igor Andruszkiewicz 2015 10 MDM PL-WAW training 
+Ilona Lanska 2015 10 QAD PL-LDZ Maternity/Paternity Leave (PL) Other
+Ilona Zuchora 2015 10 AUT PL-LDZ Engineering Management Other
+Izabela Chorek 2015 10 QAD PL-WAW RAY04 Other
+Izabela Grempka 2015 10 QAD PL-BDG ESG04 Other
+Izabela Mazurek-Turska 2015 10 (G) PL-BDG Holidays - Paid (PL) 
+Izabela Mazurek-Turska 2015 10 (G) PL-BDG ~Internal Administration 
+Izabela Wieckowska 2015 10 QAD PL-LDZ IDLE Other
+Izabela Wieckowska 2015 10 QAD PL-LDZ Engineering Management Other
+Jacek Chmiel 2015 10 MBL PL-LBN MIS01 Other
+Jacek Markiewicz 2015 10 QAD PL-BDG TMO06 Management
+Jacek Modrakowski 2015 10 MBL PL-BDG TMO06  Project Task #05
+Jacek Modrakowski 2015 10 MBL PL-BDG TMO06  Project Task #07
+John Barber 2015 10 SEM UK-WLM MOB106 Other
+John Barber 2015 10 SEM UK-WLM MOB27 Project Office Other
+Jacek Modrzejewski 2015 10 ISS PL-SCN Sickness (PL) ~~SICK
+Jacek Niezgoda 2015 10 FAB PL-LBN DEU02 Other
+Andrew Holt 2015 10 SEM UK-WLM AUS04 Other
+Jacek Stezowski 2015 10 FAB PL-BDG Engineering Management Other
+Jacek Turek 2015 10 AUT PL-SCN INT31 Other
+Jacek Tymicki 2015 10 MBL PL-WAW TMO06  Project Task #07
+Jacek Tymicki 2015 10 MBL PL-WAW Engineering Management Other
+Jacek Tymicki 2015 10 MBL PL-WAW Engineering Management Other
+Jacek Tymicki 2015 10 MBL PL-WAW Internal tech pre sales 
+Jacek Wisniewski 2015 10 QAD PL-LDZ MOB74 Other
+Jacek Wisniewski 2015 10 QAD PL-LDZ TMO06 Management
+Jacek Wojcik 2015 10 TVB PL-BDG MIS01 Other
+Jagoda Bienkowska 2015 10 (G) PL-LDZ ~Internal Administration 
+Jakub Brochocki 2015 10 AUT PL-SCN Sickness (PL) ~~SICK SELF CERT
+Jakub Brochocki 2015 10 AUT PL-SCN DEL09 Other
+Jakub Brochocki 2015 10 AUT PL-SCN DEL09 Other
+Jakub Chomentowski 2015 10 MBL PL-WAW TMO06b  Project Task #05
+Jakub Chomentowski 2015 10 MBL PL-WAW TMO06b  Project Task #07
+Jakub Chomentowski 2015 10 MBL PL-WAW TMO06b  Project Task #07
+Jakub Chomentowski 2015 10 MBL PL-WAW TMO06b Administration
+Jakub Chomentowski 2015 10 MBL PL-WAW TMO06b Documentation
+Jakub Chomentowski 2015 10 MBL PL-WAW TMO06b Documentation
+Jakub Chomentowski 2015 10 MBL PL-WAW TMO06b Management
+Jakub Chromiak 2015 10 MBL PL-LBN IDLE Other
+Jakub Czupryna 2015 10 TVB PL-BDG TMO06  Project Task #00
+Jakub Czupryna 2015 10 TVB PL-BDG TMO06 Code Review
+Jakub Czupryna 2015 10 TVB PL-BDG TMO06 Documentation
+Jakub Gawlak 2015 10 QAD PL-LDZ TMO06b Testing
+Jakub Janicki 2015 10 FAB PL-BDG Sickness (PL) ~~SICK
+Jakub Jasik 2015 10 TVB PL-BDG VIT04 Other
+Jakub Jelenski 2015 10 AUT PL-LDZ NOK01B Other
+Jakub Jelenski 2015 10 AUT PL-LDZ NOK01B Other
+Jakub Jelenski 2015 10 AUT PL-LDZ NOK01B Other
+Andy Gould 2015 10 ISS UK-WLM JLR01 Other
+Jakub Kalisiak 2015 10 AUT PL-LDZ TOM15 Other
+Jakub Niewczas 2015 10 FAB PL-WAW MOB80 Other
+Jakub Niewczas 2015 10 FAB PL-WAW IDLE Other
+Jakub Wychowaniec 2015 10 AUT PL-LDZ Holidays - Paid (PL) 

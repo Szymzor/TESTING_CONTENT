@@ -1,0 +1,21 @@
+Given(/^I can see this test is "(.*?)"$/) do |is_running|
+ 	if (is_running == "running")
+	else
+	  abort()
+	end
+end
+
+When(/^file "(.*?)" exists$/) do |filename|
+  if (File.exist?(filename))
+	else
+	  abort()
+	end
+end
+
+Then(/^I should see "(.*?)" value from this file$/) do |variable|
+  require './here_is_my_variable.rb'
+  raise("Probably $var doesn\'t exist or it\'s name or .rb filename has been changed\n\n"
+  	) unless variable != nil
+  #OR: expect(eval(variable)).to_not equal(nil)
+  #OR: eval(variable).should_not == nil
+end

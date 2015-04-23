@@ -1,0 +1,50 @@
+query("TextView id:'trip_arrival_station_name'")
+exit
+start_test_server_in_background
+buttons = query("button")
+buttons = query("*")
+exit
+start_test_server_in_background
+query("*")
+query("button")
+query("Button")
+query("id:'"home_img_btn_myTickets"'")
+query("id:'"home_img_btn_myTickets'")
+"
+;
+'
+query("id:'"home_img_btn_myTickets"')
+query("id:'home_img_btn_myTickets'")
+query("id:home_img_btn_myTickets")
+query('id:"home_btn_myTickets"')
+query(id:"home_btn_myTickets")
+query("*")
+query("* index:28")
+touch("* index:28")
+touch("* index:28")
+touch("* index:27")
+touch("* index:26")
+touch("* index:24")
+touch("* index:23")
+touch("* index:22")
+touch("* index:22")
+query("*")
+touch("Cancel")
+touch(* "Cancel")
+touch(* text:"Cancel")
+touch("*")
+query("*")
+touch(button text:"Try again")
+touch(button)
+query("button")
+query("button index:1")
+touch("button index:1")
+touch("button index:1")
+touch("button index:1")
+touch("button index:1")
+touch("button index:0")
+arr = query("button")
+arr
+arr = query("Button")
+arr = query("*")
+arr.each do |x| touch(x) end

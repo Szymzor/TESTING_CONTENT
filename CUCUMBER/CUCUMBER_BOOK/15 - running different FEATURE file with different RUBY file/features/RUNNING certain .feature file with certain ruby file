@@ -1,0 +1,1 @@
+cucumber /home/szba/Desktop/CUCUMBER/15/features/x.feature -r /home/szba/Desktop/CUCUMBER/15/features/steps-two.rb

@@ -1,0 +1,3 @@
+Open terminal in current location
+bundle
+bundle exec ruby lib/nice_bank.rb

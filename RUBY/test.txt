@@ -1,0 +1,3 @@
+Przykładowy plik, 
+którego zawartość
+zajmuje kilka linii

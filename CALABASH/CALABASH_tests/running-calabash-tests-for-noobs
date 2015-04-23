@@ -1,0 +1,47 @@
+WARNING!
+APKs CREATED BY MIT APP INVENTOR 2 MAY SHOW WRONG THINGS WHEN USED WITH CALABASH 'QUERY' COMMAND, SO RATHER DON'T USE IT TO TEST YOUR APPS!
+
+##################################################################################
+FIRST OF ALL: SET YOUR ENVIRONMENTAL VARIABLES:
+
+export ANDROID_HOME="/home/szba/android-sdks/"
+export JAVA_HOME="/usr/lib/jvm/java-7-openjdk-amd64/"
+export ANT_HOME="/usr/bin/"
+
+#############################################################################
+#In Eclipse if project is builded first time do the following with AndroidManifest.xml
+<uses-permission android:name="android.permission.INTERNET" />
+#############################################################################
+
+/home/szba/android-sdks/tools/emulator @test_machine
+
+cd /home/szba/Pulpit/cb-test
+calabash-android gen
+calabash-android resign test.apk      #only for first time!
+calabash-android build test.apk
+calabash-android run test.apk
+
+#################################################################################
+#If you're not changing your apk file, go to features/support dir, open         #
+'app_installation_hooks.rb' and hash 'Before do |scenario| ' block - this cause #
+that your app will not be removed and installed each time you type              #
+'calabash-android run test.apk' in terminal.                                    #
+#################################################################################
+
+RUNNING CONSOLE THINGS:
+(AFTER DOING STEPS DESCRIBED ABOVE)
+
+calabash-android console test.apk
+start_test_server_in_background		=> nil
+query("*")				=> lists all elements
+
+#################################################################################
+HOW TO REDIRECT LONG OUTPUT FROM 'QUERY("*")'??
+
+IN CALABASH CONSOLE AFTER RUNNING SERVER TYPE:
+$stdout = File.open("console.log","w")
+query '*'
+$stdout.flush
+$stdout = STDOUT
+#################################################################################
+

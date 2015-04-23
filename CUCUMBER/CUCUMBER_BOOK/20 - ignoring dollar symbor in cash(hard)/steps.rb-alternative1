@@ -1,0 +1,27 @@
+# encoding: utf-8
+
+CAPTURE_EURO = Transform /^€(\d+)$/ do |digits|
+	digits.to_i
+	end
+
+
+Given(/^I've got (.)(\d+)$/) do |symbol, dollars|
+# dot trick - it's completely ignoring dollar symbol
+$dollars = dollars.to_i
+puts symbol + " (#{symbol.class}) - this is ignored"
+puts "#{$dollars} (#{$dollars.class})"
+end
+
+
+Given(/^I have (#{CAPTURE_EURO}) in my pocket$/) do |euros|
+# CAPTURE_EURO takes euro symbol in advantage
+$euros = euros
+puts "#{$euros} (#{$euros.class})"
+end
+
+
+Then(/^I cannot just add them and have (.)(\d+)$/) do |question_mark, equation|
+equation = Integer(equation)  #instead of to_i
+puts "#{equation} (#{equation.class})"
+expect(equation).to eq($dollars+$euros), "Erm... ERROR!"
+end

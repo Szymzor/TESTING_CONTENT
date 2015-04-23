@@ -1,0 +1,550 @@
+#<File:console.log>
+-rw-rw-r-- 1 szba szba 0 mar  2 11:40 console.log
+[
+    [ 0] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "com.android.internal.policy.impl.PhoneWindow$DecorView@41ada240",
+                     "class" => "com.android.internal.policy.impl.PhoneWindow$DecorView",
+                      "rect" => {
+            "center_y" => 266,
+            "center_x" => 160,
+              "height" => 533,
+                   "y" => 0,
+               "width" => 320,
+                   "x" => 0
+        }
+    },
+    [ 1] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.LinearLayout@41abdef8",
+                     "class" => "android.widget.LinearLayout",
+                      "rect" => {
+            "center_y" => 266,
+            "center_x" => 160,
+              "height" => 533,
+                   "y" => 0,
+               "width" => 320,
+                   "x" => 0
+        }
+    },
+    [ 2] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.FrameLayout@41b04a80",
+                     "class" => "android.widget.FrameLayout",
+                      "rect" => {
+            "center_y" => 37,
+            "center_x" => 160,
+              "height" => 25,
+                   "y" => 25,
+               "width" => 320,
+                   "x" => 0
+        }
+    },
+    [ 3] {
+                        "id" => "title",
+                   "enabled" => true,
+        "contentDescription" => nil,
+                      "text" => "Screen1",
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.TextView@41b051d0",
+                     "class" => "android.widget.TextView",
+                      "rect" => {
+            "center_y" => 37,
+            "center_x" => 160,
+              "height" => 23,
+                   "y" => 26,
+               "width" => 312,
+                   "x" => 4
+        }
+    },
+    [ 4] {
+                        "id" => "content",
+                   "enabled" => true,
+        "contentDescription" => nil,
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.FrameLayout@41ab6568",
+                     "class" => "android.widget.FrameLayout",
+                      "rect" => {
+            "center_y" => 291,
+            "center_x" => 160,
+              "height" => 483,
+                   "y" => 50,
+               "width" => 320,
+                   "x" => 0
+        }
+    },
+    [ 5] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.FrameLayout@41b04150",
+                     "class" => "android.widget.FrameLayout",
+                      "rect" => {
+            "center_y" => 291,
+            "center_x" => 160,
+              "height" => 483,
+                   "y" => 50,
+               "width" => 320,
+                   "x" => 0
+        }
+    },
+    [ 6] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "com.google.appinventor.components.runtime.LinearLayout$1@41ad9a58",
+                     "class" => "com.google.appinventor.components.runtime.LinearLayout$1",
+                      "rect" => {
+            "center_y" => 291,
+            "center_x" => 160,
+              "height" => 483,
+                   "y" => 50,
+               "width" => 320,
+                   "x" => 0
+        }
+    },
+    [ 7] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "com.google.appinventor.components.runtime.LinearLayout$1@41bdd840",
+                     "class" => "com.google.appinventor.components.runtime.LinearLayout$1",
+                      "rect" => {
+            "center_y" => 74,
+            "center_x" => 150,
+              "height" => 48,
+                   "y" => 50,
+               "width" => 300,
+                   "x" => 0
+        }
+    },
+    [ 8] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                      "text" => "1",
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.Button@41bdfe18",
+                     "class" => "android.widget.Button",
+                      "rect" => {
+            "center_y" => 74,
+            "center_x" => 50,
+              "height" => 48,
+                   "y" => 50,
+               "width" => 100,
+                   "x" => 0
+        }
+    },
+    [ 9] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                      "text" => "1",
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.Button@41bf5e68",
+                     "class" => "android.widget.Button",
+                      "rect" => {
+            "center_y" => 74,
+            "center_x" => 150,
+              "height" => 48,
+                   "y" => 50,
+               "width" => 100,
+                   "x" => 100
+        }
+    },
+    [10] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                      "text" => "1",
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.Button@41bf8110",
+                     "class" => "android.widget.Button",
+                      "rect" => {
+            "center_y" => 74,
+            "center_x" => 250,
+              "height" => 48,
+                   "y" => 50,
+               "width" => 100,
+                   "x" => 200
+        }
+    },
+    [11] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "com.google.appinventor.components.runtime.LinearLayout$1@41bfa3b8",
+                     "class" => "com.google.appinventor.components.runtime.LinearLayout$1",
+                      "rect" => {
+            "center_y" => 122,
+            "center_x" => 118,
+              "height" => 48,
+                   "y" => 98,
+               "width" => 236,
+                   "x" => 0
+        }
+    },
+    [12] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                      "text" => "",
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.EditText@41bfcc48",
+                     "class" => "android.widget.EditText",
+                      "rect" => {
+            "center_y" => 122,
+            "center_x" => 68,
+              "height" => 48,
+                   "y" => 98,
+               "width" => 136,
+                   "x" => 0
+        }
+    },
+    [13] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                      "text" => "",
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.EditText@41c10190",
+                     "class" => "android.widget.EditText",
+                      "rect" => {
+            "center_y" => 122,
+            "center_x" => 186,
+              "height" => 48,
+                   "y" => 98,
+               "width" => 100,
+                   "x" => 136
+        }
+    },
+    [14] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "com.google.appinventor.components.runtime.LinearLayout$1@41c13d70",
+                     "class" => "com.google.appinventor.components.runtime.LinearLayout$1",
+                      "rect" => {
+            "center_y" => 170,
+            "center_x" => 150,
+              "height" => 48,
+                   "y" => 146,
+               "width" => 300,
+                   "x" => 0
+        }
+    },
+    [15] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                      "text" => "chkbox1",
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.CheckBox@41c18240",
+                     "class" => "android.widget.CheckBox",
+                      "rect" => {
+            "center_y" => 170,
+            "center_x" => 50,
+              "height" => 48,
+                   "y" => 146,
+               "width" => 100,
+                   "x" => 0
+        },
+                   "checked" => false
+    },
+    [16] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                      "text" => "chkbox2",
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.CheckBox@41bdd178",
+                     "class" => "android.widget.CheckBox",
+                      "rect" => {
+            "center_y" => 170,
+            "center_x" => 150,
+              "height" => 48,
+                   "y" => 146,
+               "width" => 100,
+                   "x" => 100
+        },
+                   "checked" => false
+    },
+    [17] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                      "text" => "chkbox3",
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.CheckBox@41c0ddd8",
+                     "class" => "android.widget.CheckBox",
+                      "rect" => {
+            "center_y" => 170,
+            "center_x" => 250,
+              "height" => 48,
+                   "y" => 146,
+               "width" => 100,
+                   "x" => 200
+        },
+                   "checked" => false
+    },
+    [18] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.TableLayout@41c0fdb0",
+                     "class" => "android.widget.TableLayout",
+                      "rect" => {
+            "center_y" => 218,
+            "center_x" => 160,
+              "height" => 49,
+                   "y" => 194,
+               "width" => 320,
+                   "x" => 0
+        }
+    },
+    [19] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.TableRow@41bf5b88",
+                     "class" => "android.widget.TableRow",
+                      "rect" => {
+            "center_y" => 218,
+            "center_x" => 160,
+              "height" => 49,
+                   "y" => 194,
+               "width" => 320,
+                   "x" => 0
+        }
+    },
+    [20] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.Spinner@41be2cf0",
+                     "class" => "android.widget.Spinner",
+                      "rect" => {
+            "center_y" => 218,
+            "center_x" => 100,
+              "height" => 49,
+                   "y" => 194,
+               "width" => 200,
+                   "x" => 0
+        }
+    },
+    [21] {
+                        "id" => "text1",
+                   "enabled" => true,
+        "contentDescription" => nil,
+                      "text" => "choice 1",
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.TextView@41bf02e8",
+                     "class" => "android.widget.TextView",
+                      "rect" => {
+            "center_y" => 216,
+            "center_x" => 80,
+              "height" => 22,
+                   "y" => 205,
+               "width" => 138,
+                   "x" => 11
+        }
+    },
+    [22] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "com.google.appinventor.components.runtime.LinearLayout$1@41bdf518",
+                     "class" => "com.google.appinventor.components.runtime.LinearLayout$1",
+                      "rect" => {
+            "center_y" => 267,
+            "center_x" => 64,
+              "height" => 48,
+                   "y" => 243,
+               "width" => 128,
+                   "x" => 0
+        }
+    },
+    [23] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                      "text" => "Pick list element",
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.Button@41c02fa8",
+                     "class" => "android.widget.Button",
+                      "rect" => {
+            "center_y" => 267,
+            "center_x" => 62,
+              "height" => 48,
+                   "y" => 243,
+               "width" => 124,
+                   "x" => 0
+        }
+    },
+    [24] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.LinearLayout@41bfc008",
+                     "class" => "android.widget.LinearLayout",
+                      "rect" => {
+            "center_y" => 350,
+            "center_x" => 160,
+              "height" => 119,
+                   "y" => 291,
+               "width" => 320,
+                   "x" => 0
+        }
+    },
+    [25] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.ListView@41be9ff0",
+                     "class" => "android.widget.ListView",
+                      "rect" => {
+            "center_y" => 350,
+            "center_x" => 160,
+              "height" => 119,
+                   "y" => 291,
+               "width" => 320,
+                   "x" => 0
+        }
+    },
+    [26] {
+                        "id" => "text1",
+                   "enabled" => true,
+        "contentDescription" => nil,
+                      "text" => "element1",
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.TextView@41ca5008",
+                     "class" => "android.widget.TextView",
+                      "rect" => {
+            "center_y" => 323,
+            "center_x" => 160,
+              "height" => 64,
+                   "y" => 291,
+               "width" => 320,
+                   "x" => 0
+        }
+    },
+    [27] {
+                        "id" => "text1",
+                   "enabled" => true,
+        "contentDescription" => nil,
+                      "text" => "element2",
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.TextView@41bf0c98",
+                     "class" => "android.widget.TextView",
+                      "rect" => {
+            "center_y" => 388,
+            "center_x" => 160,
+              "height" => 64,
+                   "y" => 356,
+               "width" => 320,
+                   "x" => 0
+        }
+    },
+    [28] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.SeekBar@41c1d138",
+                     "class" => "android.widget.SeekBar",
+                      "rect" => {
+            "center_y" => 447,
+            "center_x" => 160,
+              "height" => 29,
+                   "y" => 433,
+               "width" => 320,
+                   "x" => 0
+        }
+    },
+    [29] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "com.google.appinventor.components.runtime.LinearLayout$1@41c5b190",
+                     "class" => "com.google.appinventor.components.runtime.LinearLayout$1",
+                      "rect" => {
+            "center_y" => 509,
+            "center_x" => 160,
+              "height" => 48,
+                   "y" => 485,
+               "width" => 320,
+                   "x" => 0
+        }
+    },
+    [30] {
+                        "id" => nil,
+                   "enabled" => true,
+        "contentDescription" => nil,
+                      "text" => "Pick time!",
+                   "visible" => true,
+                       "tag" => nil,
+               "description" => "android.widget.Button@41c5e718",
+                     "class" => "android.widget.Button",
+                      "rect" => {
+            "center_y" => 509,
+            "center_x" => 42,
+              "height" => 48,
+                   "y" => 485,
+               "width" => 84,
+                   "x" => 0
+        }
+    }
+]
+#<File:console.log>
+-rw-rw-r-- 1 szba szba 28480 mar  2 11:40 console.log

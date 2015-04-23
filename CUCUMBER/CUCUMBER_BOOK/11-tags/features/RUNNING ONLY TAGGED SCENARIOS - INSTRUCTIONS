@@ -1,0 +1,8 @@
+cd TO THE DIRECTORY YOU WANT TO
+TYPE: 
+cucumber --tags @taggy1,@tag2
+
+You can even tag whole Feature section by inserting @tag above the "Feature" keyword
+
+To exclude scenarios with a certain tag, prefix the tag with a tilde:
+cucumber --tags ~@wip

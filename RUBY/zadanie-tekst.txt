@@ -1,0 +1,1 @@
+Build interactive, data-driven websites with the potent combination of open-source technologies and web standards, even if you only have basic HTML knowledge. With this popular hands-on guide, you’ll tackle dynamic web programming with the help of today’s core technologies: PHP, MySQL, JavaScript, jQuery, CSS, and HTML5.

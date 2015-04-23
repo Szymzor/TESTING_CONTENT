@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!--[if IE 7 | IE 8]>
+<html class="ie" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>How to fix problem when app won&#8217;t start when testing with calabash-android  | Luis de la Rosa</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://www.luisdelarosa.com/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="http://www.luisdelarosa.com/wp-content/themes/twentytwelve/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Luis de la Rosa &raquo; Feed" href="http://www.luisdelarosa.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Luis de la Rosa &raquo; Comments Feed" href="http://www.luisdelarosa.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Luis de la Rosa &raquo; How to fix problem when app won&#8217;t start when testing with calabash-android Comments Feed" href="http://www.luisdelarosa.com/2013/04/18/how-to-fix-problem-when-app-wont-start-when-testing-with-calabash-android/feed/" />
+<link rel='stylesheet' id='twentytwelve-fonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-style-css'  href='http://www.luisdelarosa.com/wp-content/themes/twentytwelve/style.css?ver=3.8.5' type='text/css' media='all' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.luisdelarosa.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.luisdelarosa.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='java.lang.ExceptionInitializerError when using Mockito on Android' href='http://www.luisdelarosa.com/2013/04/15/java-lang-exceptioninitializererror-when-using-mockito-on-android/' />
+<link rel='next' title='Git branching' href='http://www.luisdelarosa.com/2013/05/01/git-branching/' />
+<meta name="generator" content="WordPress 3.8.5" />
+<link rel='canonical' href='http://www.luisdelarosa.com/2013/04/18/how-to-fix-problem-when-app-wont-start-when-testing-with-calabash-android/' />
+<link rel='shortlink' href='http://www.luisdelarosa.com/?p=666' />
+<link rel="stylesheet" type="text/css" href="http://www.luisdelarosa.com/wp-content/plugins/wp-recaptcha/recaptcha.css" /><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #e6e6e6; }
+</style>
+</head>
+
+<body class="single single-post postid-666 single-format-standard custom-background custom-font-enabled single-author">
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+		<hgroup>
+			<h1 class="site-title"><a href="http://www.luisdelarosa.com/" title="Luis de la Rosa" rel="home">Luis de la Rosa</a></h1>
+			<h2 class="site-description">Making apps for iOS, Glass and Android</h2>
+		</hgroup>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<h3 class="menu-toggle">Menu</h3>
+			<div class="skip-link assistive-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+			<div class="nav-menu"><ul><li ><a href="http://www.luisdelarosa.com/">Home</a></li><li class="page_item page-item-2"><a href="http://www.luisdelarosa.com/about/">About</a></li><li class="page_item page-item-811"><a href="http://www.luisdelarosa.com/wear/">Android Wear</a></li><li class="page_item page-item-768"><a href="http://www.luisdelarosa.com/ios-resources/">iOS Resources</a></li><li class="page_item page-item-745"><a href="http://www.luisdelarosa.com/glass/">Google Glass Resources</a></li><li class="page_item page-item-683"><a href="http://www.luisdelarosa.com/emulator/">Android Emulator Resources</a></li></ul></div>
+		</nav><!-- #site-navigation -->
+
+					<a href="http://www.luisdelarosa.com/"><img src="http://www.luisdelarosa.com/wp-content/uploads/2012/11/cropped-android_keychains1.jpg" class="header-image" width="2000" height="421" alt="" /></a>
+			</header><!-- #masthead -->
+
+	<div id="main" class="wrapper">
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
+
+			
+				
+	<article id="post-666" class="post-666 post type-post status-publish format-standard hentry category-android-2">
+				<header class="entry-header">
+									<h1 class="entry-title">How to fix problem when app won&#8217;t start when testing with calabash-android</h1>
+								</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>I&#8217;ve been starting to use calabash-android, which is a way to run cucumber tests on Android.  It requires Ruby Gems and Xcode Command Line Tools on Mac, which installed fine.  However, when I ran the first sample test, then I noticed the app did not start.  I looked at the output and saw that this error showed up:</p>
+<p><code>App did not start (RuntimeError)<br />
+  /Library/Ruby/Gems/1.8/gems/calabash-android-0.4.3/lib/calabash-android/operations.rb:364:in `start_test_server_in_background'</code></p>
+<p>I looked around for the solution and did not find, so I tried a few things.  It turns out to be an easy fix.  In your Android app&#8217;s manifest, aka AndroidManifest.xml, include the line:<br />
+<code><br />
+    &lt;uses-permission android:name="android.permission.INTERNET" /&gt;<br />
+</code><br />
+inside of the manifest tag, after your application tag.</p>
+<p>Why does this work?  The reason is because Calabash-Android (and Cucumber in general) uses HTTP to communicate between the host computer and the target application.  Since Android apps do not have permission to communicate via HTTP by default, the test fails to start.</p>
+					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="http://www.luisdelarosa.com/category/android-2/" title="View all posts in Android" rel="category tag">Android</a> on <a href="http://www.luisdelarosa.com/2013/04/18/how-to-fix-problem-when-app-wont-start-when-testing-with-calabash-android/" title="4:52 pm" rel="bookmark"><time class="entry-date" datetime="2013-04-18T16:52:58+00:00" pubdate>April 18, 2013</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="http://www.luisdelarosa.com/author/louie/" title="View all posts by luis" rel="author">luis</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+
+				<nav class="nav-single">
+					<h3 class="assistive-text">Post navigation</h3>
+					<span class="nav-previous"><a href="http://www.luisdelarosa.com/2013/04/15/java-lang-exceptioninitializererror-when-using-mockito-on-android/" rel="prev"><span class="meta-nav">&larr;</span> java.lang.ExceptionInitializerError when using Mockito on Android</a></span>
+					<span class="nav-next"><a href="http://www.luisdelarosa.com/2013/05/01/git-branching/" rel="next">Git branching <span class="meta-nav">&rarr;</span></a></span>
+				</nav><!-- .nav-single -->
+
+				
+<div id="comments" class="comments-area">
+
+	
+			<h2 class="comments-title">
+			One thought on &ldquo;<span>How to fix problem when app won&#8217;t start when testing with calabash-android</span>&rdquo;		</h2>
+
+		<ol class="commentlist">
+				<li class="comment even thread-even depth-1" id="li-comment-182317">
+		<article id="comment-182317" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/8c41f587a59dd39f92229c980ca16977?s=44&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&amp;r=G' class='avatar avatar-44 photo' height='44' width='44' /><cite class="fn">Sergey </cite><a href="http://www.luisdelarosa.com/2013/04/18/how-to-fix-problem-when-app-wont-start-when-testing-with-calabash-android/comment-page-1/#comment-182317"><time pubdate datetime="2013-04-30T07:19:22+00:00">April 30, 2013 at 7:19 am</time></a>			</header><!-- .comment-meta -->
+
+			
+			<section class="comment-content comment">
+				<p>Many thanks! It works.</p>
+							</section><!-- .comment-content -->
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+		</ol><!-- .commentlist -->
+
+		
+	
+			
+</div><!-- #comments .comments-area -->
+			
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+
+			<div id="secondary" class="widget-area" role="complementary">
+			<aside id="text-8" class="widget widget_text">			<div class="textwidget"><a href="https://twitter.com/louielouie"><img src="http://luisdelarosa.s3.amazonaws.com/twitter.png" alt="Twitter"/></a>
+<a href="http://google.com/+luisdelarosa"><img src="http://luisdelarosa.s3.amazonaws.com/google_plus.png" alt="Google+"/></a></div>
+		</aside><aside id="text-4" class="widget widget_text">			<div class="textwidget"><a href="http://stackoverflow.com/users/1174526/louielouie">
+<img src="http://stackoverflow.com/users/flair/1174526.png" width="208" height="58" alt="profile for louielouie at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for louielouie at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+</a></div>
+		</aside><aside id="categories-3" class="widget widget_categories"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-68"><a href="http://www.luisdelarosa.com/category/android-2/" title="View all posts filed under Android">Android</a> (17)
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.luisdelarosa.com/category/blogging/" title="View all posts filed under Blogging">Blogging</a> (8)
+</li>
+	<li class="cat-item cat-item-15"><a href="http://www.luisdelarosa.com/category/books/" title="View all posts filed under Books">Books</a> (2)
+</li>
+	<li class="cat-item cat-item-11"><a href="http://www.luisdelarosa.com/category/cocoa/" title="View all posts filed under Cocoa">Cocoa</a> (30)
+</li>
+	<li class="cat-item cat-item-27"><a href="http://www.luisdelarosa.com/category/conferences/" title="View all posts filed under Conferences">Conferences</a> (29)
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.luisdelarosa.com/category/desktop-java/" title="View all posts filed under Desktop Java">Desktop Java</a> (13)
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.luisdelarosa.com/category/eclipse/" title="View all posts filed under Eclipse">Eclipse</a> (88)
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.luisdelarosa.com/category/erlang/" title="View all posts filed under Erlang">Erlang</a> (2)
+</li>
+	<li class="cat-item cat-item-93"><a href="http://www.luisdelarosa.com/category/glass/" title="View all posts filed under Glass">Glass</a> (2)
+</li>
+	<li class="cat-item cat-item-23"><a href="http://www.luisdelarosa.com/category/hardware/" title="View all posts filed under Hardware">Hardware</a> (1)
+</li>
+	<li class="cat-item cat-item-82"><a href="http://www.luisdelarosa.com/category/health-2/" title="View all posts filed under Health">Health</a> (2)
+</li>
+	<li class="cat-item cat-item-90"><a href="http://www.luisdelarosa.com/category/ios-2/" title="View all posts filed under iOS">iOS</a> (4)
+</li>
+	<li class="cat-item cat-item-66"><a href="http://www.luisdelarosa.com/category/ipad-2/" title="View all posts filed under iPad">iPad</a> (3)
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.luisdelarosa.com/category/iphone/" title="View all posts filed under iPhone">iPhone</a> (13)
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.luisdelarosa.com/category/jface/" title="View all posts filed under JFace">JFace</a> (3)
+</li>
+	<li class="cat-item cat-item-21"><a href="http://www.luisdelarosa.com/category/jruby/" title="View all posts filed under JRuby">JRuby</a> (2)
+</li>
+	<li class="cat-item cat-item-60"><a href="http://www.luisdelarosa.com/category/lego/" title="View all posts filed under LEGO">LEGO</a> (1)
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.luisdelarosa.com/category/mac-os-x/" title="View all posts filed under Mac OS X">Mac OS X</a> (60)
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.luisdelarosa.com/category/northern-virginia/" title="View all posts filed under Northern Virginia">Northern Virginia</a> (5)
+</li>
+	<li class="cat-item cat-item-48"><a href="http://www.luisdelarosa.com/category/productivity/" title="View all posts filed under Productivity">Productivity</a> (2)
+</li>
+	<li class="cat-item cat-item-2"><a href="http://www.luisdelarosa.com/category/programming/" title="View all posts filed under Programming">Programming</a> (31)
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.luisdelarosa.com/category/rails/" title="View all posts filed under Rails">Rails</a> (52)
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.luisdelarosa.com/category/railsconf/" title="View all posts filed under RailsConf">RailsConf</a> (9)
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.luisdelarosa.com/category/random/" title="View all posts filed under Random">Random</a> (15)
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.luisdelarosa.com/category/rcp/" title="View all posts filed under RCP">RCP</a> (8)
+</li>
+	<li class="cat-item cat-item-19"><a href="http://www.luisdelarosa.com/category/ruby/" title="View all posts filed under Ruby">Ruby</a> (24)
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.luisdelarosa.com/category/sports/" title="View all posts filed under Sports">Sports</a> (2)
+</li>
+	<li class="cat-item cat-item-22"><a href="http://www.luisdelarosa.com/category/streamlined/" title="View all posts filed under Streamlined">Streamlined</a> (4)
+</li>
+	<li class="cat-item cat-item-108"><a href="http://www.luisdelarosa.com/category/swift/" title="View all posts filed under Swift">Swift</a> (1)
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.luisdelarosa.com/category/swing/" title="View all posts filed under Swing">Swing</a> (7)
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.luisdelarosa.com/category/swt/" title="View all posts filed under SWT">SWT</a> (9)
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.luisdelarosa.com/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a> (23)
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.luisdelarosa.com/category/user-experience/" title="View all posts filed under User Experience">User Experience</a> (4)
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.luisdelarosa.com/category/washington-dc/" title="View all posts filed under Washington DC">Washington DC</a> (16)
+</li>
+		</ul>
+</aside><aside id="archives-3" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
+			<li><a href='http://www.luisdelarosa.com/2014/07/'>July 2014</a></li>
+	<li><a href='http://www.luisdelarosa.com/2014/05/'>May 2014</a></li>
+	<li><a href='http://www.luisdelarosa.com/2014/04/'>April 2014</a></li>
+	<li><a href='http://www.luisdelarosa.com/2014/03/'>March 2014</a></li>
+	<li><a href='http://www.luisdelarosa.com/2014/02/'>February 2014</a></li>
+	<li><a href='http://www.luisdelarosa.com/2013/12/'>December 2013</a></li>
+	<li><a href='http://www.luisdelarosa.com/2013/11/'>November 2013</a></li>
+	<li><a href='http://www.luisdelarosa.com/2013/08/'>August 2013</a></li>
+	<li><a href='http://www.luisdelarosa.com/2013/07/'>July 2013</a></li>
+	<li><a href='http://www.luisdelarosa.com/2013/05/'>May 2013</a></li>
+	<li><a href='http://www.luisdelarosa.com/2013/04/'>April 2013</a></li>
+	<li><a href='http://www.luisdelarosa.com/2013/01/'>January 2013</a></li>
+	<li><a href='http://www.luisdelarosa.com/2012/12/'>December 2012</a></li>
+	<li><a href='http://www.luisdelarosa.com/2012/11/'>November 2012</a></li>
+	<li><a href='http://www.luisdelarosa.com/2012/10/'>October 2012</a></li>
+	<li><a href='http://www.luisdelarosa.com/2012/08/'>August 2012</a></li>
+	<li><a href='http://www.luisdelarosa.com/2012/03/'>March 2012</a></li>
+	<li><a href='http://www.luisdelarosa.com/2012/01/'>January 2012</a></li>
+	<li><a href='http://www.luisdelarosa.com/2011/10/'>October 2011</a></li>
+	<li><a href='http://www.luisdelarosa.com/2011/08/'>August 2011</a></li>
+	<li><a href='http://www.luisdelarosa.com/2011/06/'>June 2011</a></li>
+	<li><a href='http://www.luisdelarosa.com/2011/05/'>May 2011</a></li>
+	<li><a href='http://www.luisdelarosa.com/2011/04/'>April 2011</a></li>
+	<li><a href='http://www.luisdelarosa.com/2011/03/'>March 2011</a></li>
+	<li><a href='http://www.luisdelarosa.com/2010/09/'>September 2010</a></li>
+	<li><a href='http://www.luisdelarosa.com/2010/08/'>August 2010</a></li>
+	<li><a href='http://www.luisdelarosa.com/2010/03/'>March 2010</a></li>
+	<li><a href='http://www.luisdelarosa.com/2009/10/'>October 2009</a></li>
+	<li><a href='http://www.luisdelarosa.com/2009/09/'>September 2009</a></li>
+	<li><a href='http://www.luisdelarosa.com/2009/07/'>July 2009</a></li>
+	<li><a href='http://www.luisdelarosa.com/2009/06/'>June 2009</a></li>
+	<li><a href='http://www.luisdelarosa.com/2009/05/'>May 2009</a></li>
+	<li><a href='http://www.luisdelarosa.com/2009/04/'>April 2009</a></li>
+	<li><a href='http://www.luisdelarosa.com/2009/03/'>March 2009</a></li>
+	<li><a href='http://www.luisdelarosa.com/2009/02/'>February 2009</a></li>
+	<li><a href='http://www.luisdelarosa.com/2008/10/'>October 2008</a></li>
+	<li><a href='http://www.luisdelarosa.com/2008/09/'>September 2008</a></li>
+	<li><a href='http://www.luisdelarosa.com/2008/08/'>August 2008</a></li>
+	<li><a href='http://www.luisdelarosa.com/2008/07/'>July 2008</a></li>
+	<li><a href='http://www.luisdelarosa.com/2008/06/'>June 2008</a></li>
+	<li><a href='http://www.luisdelarosa.com/2008/05/'>May 2008</a></li>
+	<li><a href='http://www.luisdelarosa.com/2008/03/'>March 2008</a></li>
+	<li><a href='http://www.luisdelarosa.com/2008/02/'>February 2008</a></li>
+	<li><a href='http://www.luisdelarosa.com/2008/01/'>January 2008</a></li>
+	<li><a href='http://www.luisdelarosa.com/2007/11/'>November 2007</a></li>
+	<li><a href='http://www.luisdelarosa.com/2007/10/'>October 2007</a></li>
+	<li><a href='http://www.luisdelarosa.com/2007/09/'>September 2007</a></li>
+	<li><a href='http://www.luisdelarosa.com/2007/07/'>July 2007</a></li>
+	<li><a href='http://www.luisdelarosa.com/2007/05/'>May 2007</a></li>
+	<li><a href='http://www.luisdelarosa.com/2007/04/'>April 2007</a></li>
+	<li><a href='http://www.luisdelarosa.com/2007/03/'>March 2007</a></li>
+	<li><a href='http://www.luisdelarosa.com/2007/02/'>February 2007</a></li>
+	<li><a href='http://www.luisdelarosa.com/2007/01/'>January 2007</a></li>
+	<li><a href='http://www.luisdelarosa.com/2006/12/'>December 2006</a></li>
+	<li><a href='http://www.luisdelarosa.com/2006/11/'>November 2006</a></li>
+	<li><a href='http://www.luisdelarosa.com/2006/09/'>September 2006</a></li>
+	<li><a href='http://www.luisdelarosa.com/2006/08/'>August 2006</a></li>
+	<li><a href='http://www.luisdelarosa.com/2006/03/'>March 2006</a></li>
+	<li><a href='http://www.luisdelarosa.com/2006/02/'>February 2006</a></li>
+	<li><a href='http://www.luisdelarosa.com/2006/01/'>January 2006</a></li>
+	<li><a href='http://www.luisdelarosa.com/2005/12/'>December 2005</a></li>
+	<li><a href='http://www.luisdelarosa.com/2005/11/'>November 2005</a></li>
+	<li><a href='http://www.luisdelarosa.com/2005/10/'>October 2005</a></li>
+	<li><a href='http://www.luisdelarosa.com/2005/09/'>September 2005</a></li>
+	<li><a href='http://www.luisdelarosa.com/2005/08/'>August 2005</a></li>
+	<li><a href='http://www.luisdelarosa.com/2005/07/'>July 2005</a></li>
+	<li><a href='http://www.luisdelarosa.com/2005/06/'>June 2005</a></li>
+	<li><a href='http://www.luisdelarosa.com/2005/05/'>May 2005</a></li>
+	<li><a href='http://www.luisdelarosa.com/2005/04/'>April 2005</a></li>
+	<li><a href='http://www.luisdelarosa.com/2005/03/'>March 2005</a></li>
+	<li><a href='http://www.luisdelarosa.com/2005/02/'>February 2005</a></li>
+	<li><a href='http://www.luisdelarosa.com/2005/01/'>January 2005</a></li>
+	<li><a href='http://www.luisdelarosa.com/2004/12/'>December 2004</a></li>
+	<li><a href='http://www.luisdelarosa.com/2004/11/'>November 2004</a></li>
+	<li><a href='http://www.luisdelarosa.com/2004/10/'>October 2004</a></li>
+		</ul>
+</aside><aside id="text-3" class="widget widget_text">			<div class="textwidget"><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8576056-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></div>
+		</aside>		</div><!-- #secondary -->
+		</div><!-- #main .wrapper -->
+	<footer id="colophon" role="contentinfo">
+		<div class="site-info">
+						<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress</a>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<script type='text/javascript' src='http://www.luisdelarosa.com/wp-content/themes/twentytwelve/js/navigation.js?ver=1.0'></script>
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using memcached
+Database Caching 1/12 queries in 0.002 seconds using memcached
+Object Caching 787/811 objects using memcached
+
+Served from: www.luisdelarosa.com @ 2015-02-25 09:52:03 -->
